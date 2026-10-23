@@ -1,0 +1,32 @@
+<!doctype html><html lang="fr"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="robots" content="noindex,nofollow"><title>Cours complet — Boost × RMBD</title></head><body><p id="loading" role="status">Chargement du cours…</p>
+<script>
+(async()=>{try{
+const response=await fetch('base.html');if(!response.ok)throw Error('HTTP '+response.status);
+let html=await response.text();
+const changes=[
+['<b>16–17 septembre 2026</b><br>DGA Toulon','<b>Dates à fixer avec Boost</b><br>Intra · présentiel'],
+['16–17 septembre 2026 · DGA Toulon','Boost × RMBD · dates à fixer'],
+['16–17 septembre 2026','dates à fixer'],['DGA Toulon','Boost'],
+['12 participants','10 participants au plus'],
+['<td>16/09</td>','<td>Jour 1</td>'],['<td>17/09</td>','<td>Jour 2</td>'],
+['Évaluation théorique selon dispositif Consulteam','Évaluation théorique (questionnaire du support)'],
+['Édition enrichie · 12 septembre<br>Relecture finale formateur requise','Édition du 23 octobre 2026<br>Contenu à confirmer avec Boost'],
+['Édition enrichie du 12 septembre 2026','Édition du 23 octobre 2026'],
+['Édition finale consolidée du 12 septembre 2026','Édition du 23 octobre 2026'],
+['<title>Consulteam · Habilitation électrique</title>','<title>Cours complet · Boost × RMBD</title>'],
+['Consulteam · Ingénierie pédagogique : Benoît Deflandre / RMBD','Boost × RMBD · Ingénierie pédagogique : Benoît Deflandre / RMBD Risk Management'],
+['Consulteam<br>Ingénierie pédagogique','Boost × RMBD<br>Ingénierie pédagogique'],
+['Consulteam · dates à fixer','Boost × RMBD · dates à fixer'],
+['CONSULTEAM · ','BOOST × RMBD · '],
+['Conception pédagogique Consulteam','Conception pédagogique RMBD'],
+["platform:'Consulteam HE'","platform:'Boost × RMBD HE'"],["'Consulteam_suivi_'","'Boost_RMBD_suivi_'"],
+['consulteam.he.2026.v1','rmbd.boost.he.v1'],
+["['trainer','Espace formateur'],",''],
+['Consulteam','Boost × RMBD']];
+for(const [from,to] of changes)html=html.replaceAll(from,to);
+html=html.replace(/<header><img [^>]*>/,'<header><img src="../logo-boost.png" alt="Boost Expertises">');
+html=html.replace('<button id="theme"','<nav class="sitenav" aria-label="Site"><a href="../index.html">Accueil</a><a href="../parcours.html">Formation initiale</a><a href="../recyclage.html">Recyclage</a><a href="../evaluation.html">Évaluation</a><a href="#" class="on" aria-current="page">Cours complet</a><a href="../ressources.html">Ressources</a><a href="../glossaire.html">Glossaire</a></nav><button id="theme"');
+html=html.replace('</body>','<script src="boost.js"><\/script></body>');
+document.open();document.write(html);document.close();
+}catch(error){document.getElementById('loading').textContent='Le cours ne peut pas être chargé. Actualisez la page. '+error.message;}})();
+</script></body></html>
