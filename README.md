@@ -13,3 +13,8 @@ Site statique (GitHub Pages) : à partager aux participants avec l’adresse de 
 - `REGISTRE-SOURCES.md`, `QA.md` : sources, limites, contrôles.
 
 Aucune donnée personnelle n’est publiée. Le titre d’habilitation est délivré par l’employeur. Les documents formateur (programmes, grilles, avis, attestation) ne sont pas dans ce dépôt.
+
+
+## Suivre la formation (QR codes)
+
+`suivre.html` : page publique pour les participants (programme, durée et lien de chaque séquence, QR code par séquence, coches de progression conservées dans le navigateur, onglets initiale / recyclage). Chaque diapositive du mode animation porte un encadré « Sur le site » avec un QR code vers cette page ; les pages d'ouverture de séquence affichent l'agenda coloré. Les QR sont générés avec `segno` (niveau de correction M) lors de la construction des diaporamas.

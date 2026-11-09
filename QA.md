@@ -9,3 +9,10 @@
 - Mode animation (09/11/2026) : initiale 14 h (71 diapositives : 9 séquences, 7 cas métiers d’établissement scolaire, QCM collectif de 10 questions) et recyclage d’une journée de 7 h le 10/11/2026 (41 diapositives : minutage 420 min, 4 cas métiers, QCM de 8 questions), contenu repris de parcours, recyclage et évaluation. Contrôlés en navigateur : déchiffrement (bon et mauvais code), parcours de toutes les diapositives, aucun débordement, aucune image cassée, aucune erreur JS. Pages chiffrées ; aucune donnée nominative. Reste : minutage proposé à valider ; détail des changements de l’amendement A2 pour le BS et le BE Manœuvre à vérifier dans le texte consolidé ; pratique du recyclage (environ 2 h 35) inférieure au minimum de 3 h du programme de référence, à consigner dans l’avis.
 - Visuels s01 à s06 (09/11/2026) intégrés : galerie (14 scènes) et cas métiers du mode animation (S01 lampe, S02 prise, S03 réfectoire, S04 tableau d’étage). Chaque image relue : aucun texte parasite, aucune marque, aucune personne, aucun défaut électrique visible. Réserve : S04 montre un seul disjoncteur en position basse, sans valeur de diagnostic.
 - Navigation (09/11/2026) : entrée « Animation » ajoutée au menu des 8 pages et du cours ; page de présentation animation.html ; code d’accès formateur modifié (ancien code refusé, nouveau code accepté, vérifié en local).
+
+
+## Contrôle du 09/11/2026 — refonte visuelle du mode animation et page « Suivre »
+
+- Diaporamas chiffrés reconstruits : initiale 80 diapositives (840 min), recyclage 47 (420 min), thème sombre, cartes, ouvertures de séquence, frises.
+- QR codes décodés (diapositive : suivre.html ; tableau : parcours.html#sN) ; aucune image cassée ; pas de débordement à 1366×768 et 1920×1080.
+- Menu « Suivre » ajouté sur toutes les pages.
