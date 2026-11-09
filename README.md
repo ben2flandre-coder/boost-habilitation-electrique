@@ -18,3 +18,8 @@ Aucune donnée personnelle n’est publiée. Le titre d’habilitation est déli
 ## Suivre la formation (QR codes)
 
 `suivre.html` : page publique pour les participants (programme, durée et lien de chaque séquence, QR code par séquence, coches de progression conservées dans le navigateur, onglets initiale / recyclage). Chaque diapositive du mode animation porte un encadré « Sur le site » avec un QR code vers cette page ; les pages d'ouverture de séquence affichent l'agenda coloré. Les QR sont générés avec `segno` (niveau de correction M) lors de la construction des diaporamas.
+
+
+## Espace formateur
+
+`formateur.html` (chiffré, même accès que les diaporamas) : cadre, scénario pédagogique, time-line horaire de l'initiale et du recyclage, script séquence par séquence (généré à partir des notes des diaporamas), organisation avant/pendant/après, FAQ, références et sites, limites. Généré par `gen_formateur.py` (hors dépôt).
