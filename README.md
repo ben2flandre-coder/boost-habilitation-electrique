@@ -7,7 +7,8 @@ Site statique (GitHub Pages) : à partager aux participants avec l’adresse de 
 - `index.html`, `parcours.html` (initiale), `recyclage.html`, `evaluation.html` : pages participants.
 - `ressources.html`, `glossaire.html` : ressources, références, glossaire.
 - `cours/` : cours complet (socle électrique, séquences, cas, entraînement, travaux pratiques, vidéothèque, livret). `cours/base.html` (15 Mo) est le contenu du cours ; `cours/index.html` l’adapte à Boost au chargement.
-- `animation-initiale.html`, `animation-recyclage.html` : mode animation plein écran (diaporama formateur : séquences minutées, notes, chrono, QCM collectif), pages réservées, chiffrées (e-mail + code) ; `gate.js` en assure l’ouverture. Un lien discret figure en pied de la page d’accueil.
+- `animation.html` : page de présentation du mode animation (menu de toutes les pages).
+- `animation-initiale.html`, `animation-recyclage.html` : mode animation plein écran (diaporama formateur : séquences minutées, notes, chrono, QCM collectif), pages réservées, chiffrées (e-mail + code) ; `gate.js` en assure l’ouverture. L’entrée « Animation » du menu mène à `animation.html`, qui présente les deux diaporamas.
 - `logo-boost.png` : logo Boost.
 - `REGISTRE-SOURCES.md`, `QA.md` : sources, limites, contrôles.
 

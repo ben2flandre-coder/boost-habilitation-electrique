@@ -25,7 +25,7 @@ const changes=[
 ['Consulteam','Boost × RMBD']];
 for(const [from,to] of changes)html=html.replaceAll(from,to);
 html=html.replace(/<header><img [^>]*>/,'<header><img src="../logo-boost.png" alt="Boost Expertises">');
-html=html.replace('<button id="theme"','<nav class="sitenav" aria-label="Site"><a href="../index.html">Accueil</a><a href="../parcours.html">Formation initiale</a><a href="../recyclage.html">Recyclage</a><a href="../evaluation.html">Évaluation</a><a href="#" class="on" aria-current="page">Cours complet</a><a href="../ressources.html">Ressources</a><a href="../glossaire.html">Glossaire</a></nav><button id="theme"');
+html=html.replace('<button id="theme"','<nav class="sitenav" aria-label="Site"><a href="../index.html">Accueil</a><a href="../parcours.html">Formation initiale</a><a href="../recyclage.html">Recyclage</a><a href="../evaluation.html">Évaluation</a><a href="#" class="on" aria-current="page">Cours complet</a><a href="../ressources.html">Ressources</a><a href="../glossaire.html">Glossaire</a><a href="../animation.html">Animation</a></nav><button id="theme"');
 html=html.replace('</body>','<script src="boost.js"><\/script></body>');
 document.open();document.write(html);document.close();
 }catch(error){document.getElementById('loading').textContent='Le cours ne peut pas être chargé. Actualisez la page. '+error.message;}})();
